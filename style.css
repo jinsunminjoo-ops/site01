@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: auto; }
 body { margin: 0; color: #243b43; background: #f6f3ed; font-family: Arial, "Malgun Gothic", sans-serif; line-height: 1.65; }
-.layout { width: 1040px; margin: 0 auto; padding: 28px; }
+.layout { width: 100%; max-width: 1040px; margin: 0 auto; padding: 28px; }
 .site-header { border-bottom: 1px solid #d9dfd9; background: #fff; }
 .site-header .layout { display: flex; justify-content: space-between; align-items: center; padding-top: 18px; padding-bottom: 18px; gap: 12px; }
 .site-header span { font-size: 11px; letter-spacing: 1px; }
